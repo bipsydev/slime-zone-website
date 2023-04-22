@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>About - Slime Software 👽💻.ml</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body,h1 {font-family: "Raleway", sans-serif}
+    body, html {height: 100%}
+    .bgimg {
+    background-image: url("{{ url_for('static', filename='cavestory-bg.png') }}");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    }
+</style>
+</head>
+
+<body>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+        <a href="{{ url_for('index') }}">slime.software</a><i class="w3-medium"> / </i>
+        <a href="http://xn--cr8h2d.ml" class="w3-medium">👽💻.ml</a><br>
+        <div class="w3-text-light-blue">
+        <img style="height: 1em;" src="{{ url_for('static', filename='twitter.png') }}"> 
+        <a href="https://twitter.com/slime_software" target="_blank">@slime_software</a>
+        <i class="w3-medium"> / </i>
+        <a href="https://twitter.com/lilitharcana" target="_blank" class="w3-medium">
+        @lilitharcana</a><br>
+        </div>
+    </div>
+    <div class="w3-container w3-display-topmiddle w3-margin-top">
+        <br><br><br><br><br><br><div class="w3-center w3-text-blue w3-opacity-min"><i>(soon to be)</i></div>
+        <p class="w3-xlarge w3-animate-top w3-center">
+        games &nbsp;//&nbsp; code &nbsp;//&nbsp; art &nbsp;//&nbsp; words &nbsp;//&nbsp; experiences &nbsp;//&nbsp; fun &nbsp;//&nbsp; social &nbsp;//&nbsp; slime<br><br>
+        <i class="w3-text-deep-purple">by Lily-Heather Crawford</p>
+        </i>
+    </div>
+    <div class="w3-display-bottomleft w3-padding-large">
+        Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+    </div>
+</div>
+</body>
+
+</html>

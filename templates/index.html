@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Slime Software 👽💻.ml</title>
+<!-- Script for changing the URL -->
+<!--
+<script src="https://i❤️.ws/js/emojiurlifier.js"></script>
+<script>
+    emojiurlifier('http://xn--cr8h2d.ml', 'https://slime.software');
+</script>
+-->
+<!-- Must be commented out for local code! Uncomment before `gcloud app deploy` -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body,h1 {font-family: "Raleway", sans-serif}
+    body, html {height: 100%}
+    .bgimg {
+    background-image: url("{{ url_for('static', filename='slimepx.gif') }}");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    }
+</style>
+</head>
+
+<body>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+        <a href="{{ url_for('index') }}">slime.software</a><i class="w3-medium"> / </i>
+        <a href="http://xn--cr8h2d.ml" class="w3-medium">👽💻.ml</a><br>
+        <div class="w3-text-light-blue">
+        <img style="height: 1em;" src="{{ url_for('static', filename='twitter.png') }}"> 
+        <a href="https://twitter.com/slime_software" target="_blank">@slime_software</a>
+        <i class="w3-medium"> / </i>
+        <a href="https://twitter.com/lilitharcana" target="_blank" class="w3-medium">
+        @lilitharcana</a><br>
+        </div>
+    </div>
+    <div class="w3-display-middle">
+        <h1 class="w3-jumbo w3-animate-top">Slime Software</h1>
+        <hr class="w3-border-grey" style="margin:auto;width:40%">
+        <p class="w3-large w3-center w3-opacity-min w3-gray w3-code">coming soon</p>
+    </div>
+    <div class="w3-display-bottomleft w3-padding-large">
+        <a href="{{ url_for('about') }}">about?</a>
+    </div>
+</div>
+</body>
+
+</html>
